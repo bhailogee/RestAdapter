@@ -1,0 +1,20 @@
+{
+  "name": "RestAdapter",
+  "private": true,
+  "main": "Server.js",
+  "version": "0.0.1",
+  "description": "Rest Adapter",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.9.0",
+		"express": "~4.10.1",    
+		"extend": "^3.0.0",
+    "jquery-deferred": "^0.3.0"    
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "set NODE_ENV=development && node Server.js",
+    "startprod": "set NODE_ENV=production && node Server.js",
+    "debug": "node-debug -d 5870 -p 8853 Server.js"
+  }
+}

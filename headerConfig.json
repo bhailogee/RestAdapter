@@ -1,0 +1,6 @@
+{
+	"remoteIP": "ip",
+	"connectionRemoteAddress": "connection.remoteAddress",
+	"socketRemoteAddress": "socket.remoteAddress",
+	"connectionSocketRemoteAddress": "connection.socket.remoteAddress"
+}

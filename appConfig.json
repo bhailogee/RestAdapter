@@ -1,0 +1,8 @@
+{
+	"port": 3330,
+	"schema": "schema.json",
+	"packageName": "trunk20Nov2015",
+	"hostName": "localhost",
+	"hostPort": 3335,
+	"hostPath": "/"
+}
